@@ -1,0 +1,8 @@
+11 lines (7 sloc)  209 Bytes
+import java.util.Arrays;
+public class Main {
+    public static void main(String[] args) {
+        char[] characters = {'a', 'z', 'e', 'd'};
+        System.out.println(Arrays.toString(characters));
+    }
+}
