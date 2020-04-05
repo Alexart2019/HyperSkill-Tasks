@@ -1,3 +1,5 @@
+// for sample input = 173 output is 7 tens
+
 import java.util.Scanner;
 
 class Main {
