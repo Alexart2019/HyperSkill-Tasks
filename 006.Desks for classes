@@ -1,3 +1,12 @@
+/* A university has decided to open math courses and equip classrooms for 3 groups with special new desks. 
+The faculty agreed that in the sake of productivity only two students may share one table. 
+The enrolment has ended, and now the task is to count the number of desks to order the correct amount from the shop. 
+Of course, the university is short of money, so you need to calculate the minimum of desks. 
+But don't forget that each group will sit in its own classroom!
+
+The program receives the input of the three non-negative integers: the number of students in each of the three groups 
+(the numbers is not bigger than 1000).
+*/
 import java.util.Scanner;
 
 class Main {
