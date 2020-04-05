@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int clnum1 = scanner.nextInt();
+        int clnum2 = scanner.nextInt();
+        int clnum3 = scanner.nextInt();
+        int sum=0;
+          if ((clnum1+clnum2+clnum3)<1001) {
+            if (clnum1%2 == 0) {
+              sum = sum+clnum1/2;
+            }
+            else {sum = sum+clnum1/2+1;}    
+          if (clnum2%2 == 0) {
+              sum = sum+clnum2/2;
+            }
+            else {sum = sum+clnum2/2+1;}
+          if (clnum3%2 == 0) {
+              sum = sum+clnum3/2;
+            }
+            else {sum = sum+clnum3/2+1;}
+          }
+          else {System.out.println("Too much students!");}
+        System.out.println(sum);
+    }
+}
